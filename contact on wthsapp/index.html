@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Profile | Contact on WhatsApp</title>
+  <meta name="description" content="Connect with me directly on WhatsApp. View my profile and start a chat instantly.">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Ambient background lighting effects -->
+  <div class="bg-orb orb-1"></div>
+  <div class="bg-orb orb-2"></div>
+  <div class="bg-orb orb-3"></div>
+
+  <main class="page-container">
+    <div class="profile-card" id="profileCard">
+      <!-- Profile Picture Container -->
+      <div class="avatar-wrapper">
+        <div class="avatar-ring">
+          <img src="image/profile1.jpg" alt="Profile Picture" id="profileImage" class="avatar-img"
+            onerror="this.src='https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&auto=format&fit=crop&q=80'">
+        </div>
+      </div>
+
+      <!-- Profile Details -->
+      <div class="profile-info">
+        <h1 class="profile-name" id="profileName">New-Batch Vedic Vision</h1>
+        <p class="profile-status" id="profileStatus">
+          <span class="status-indicator"></span> Available on WhatsApp
+        </p>
+      </div>
+
+      <!-- WhatsApp Action Button -->
+      <div class="action-section">
+        <a id="whatsappButton" href="#" target="_blank" rel="noopener noreferrer" class="whatsapp-btn">
+          <!-- Official WhatsApp SVG Icon -->
+          <span class="btn-icon">
+            <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor">
+              <path
+                d="M12.004 2c-5.518 0-9.996 4.478-9.996 9.996 0 1.763.458 3.487 1.33 5.006L2 22l5.12-1.312c1.472.802 3.13 1.226 4.884 1.226 5.518 0 9.996-4.478 9.996-9.996C22 6.478 17.522 2 12.004 2zm0 18.286c-1.528 0-3.023-.404-4.332-1.168l-.31-.18-3.21.823.856-3.13-.198-.328c-.838-1.388-1.282-2.986-1.282-4.629 0-4.675 3.803-8.478 8.478-8.478 4.675 0 8.478 3.803 8.478 8.478 0 4.675-3.803 8.478-8.476 8.478zm4.646-6.347c-.255-.128-1.506-.743-1.74-.828-.233-.085-.403-.128-.572.128-.17.255-.658.828-.806.998-.149.17-.297.191-.552.064-.255-.128-1.077-.397-2.051-1.266-.759-.676-1.27-1.512-1.42-1.767-.149-.255-.016-.393.112-.52.115-.115.255-.297.382-.446.128-.149.17-.255.255-.425.085-.17.042-.319-.021-.446-.064-.128-.573-1.38-.786-1.89-.208-.497-.419-.43-.573-.438-.149-.008-.319-.01-.488-.01s-.446.064-.68.319c-.234.255-.892.871-.892 2.124 0 1.253.913 2.464 1.04 2.634.128.17 1.796 2.742 4.35 3.845.608.263 1.082.42 1.453.538.61.194 1.166.167 1.605.101.49-.074 1.506-.616 1.719-1.21.213-.595.213-1.104.149-1.211-.064-.106-.234-.17-.489-.297z" />
+            </svg>
+          </span>
+          <span class="btn-text">Contact on WhatsApp</span>
+        </a>
+      </div>
+    </div>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
